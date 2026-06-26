@@ -6,7 +6,7 @@ import path from 'path'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/Abdiel-Bonilla.github.io/',
+  base: '/Sign-Track/',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
